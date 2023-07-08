@@ -1,9 +1,9 @@
 body{
+    height:100%;
     margin:0;
     padding:0;
-   background-color: #0c053d;
+    background-color: #0c053d;
     color:white;
-    
 }
 html {
     scroll-behavior: smooth;
@@ -26,7 +26,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #0c053d;
     
 }
 nav ul {
@@ -35,15 +34,15 @@ nav ul {
 }
 nav ul li{
     list-style: none;
-    margin-top: 7%;
-    margin-right: 50px;
+    margin-top: 1rem;
+    margin-right: 2rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav ul li a {
     text-decoration: none;
     color:white;
     position: relative;
-    font-size: 43px;
+    font-size: 2rem;
 }
 
 .right li a::before {
@@ -68,7 +67,7 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     margin: 50px 20px ;
-    font-size: 3.0rem;
+    font-size: 1.5rem;
 }
 .home-button1{
     background-color: transparent;
@@ -93,12 +92,23 @@ nav ul li a {
 }
 .rightsection img{ 
     margin-left: -12px;
-    height: 700px;
+    height: 35rem;
    
 }
 .head-color{
     font-weight: 800;
-    color:#53a1e6;   
+    color:#53a1e6;  
+    font-size: 3rem; 
+}
+.leftsectiondetails{
+    font-size: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+#element{
+    font-weight: 800;
+    color:#0389ff; 
+    font-size: 2.5rem;
 }
 
 /* ---------------------------------------------------------------- */
@@ -108,27 +118,25 @@ nav ul li a {
     justify-content: space-around;
 }
 .leftabout img{
-    margin-left: 4%;
-    width:65%;
-    height:90%;
+    margin-left: 2rem;
+    height:30rem;
+    width:30rem
 }
 .aboutme{
     color:#0389ff;
-    margin-left: -50%;
     font-size: 25px;
 }
 .abouthead
 {
-    font-size: 60px;
+    font-size: 2.5rem;
     
 }
 .abouthead h1{
-    margin-top: 10px;
+    margin-top: 1.5rem;
 }
 .aboutcontent{
-    margin-left: -50%;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.2rem;
     
 }
 
@@ -179,13 +187,13 @@ nav ul li a {
     margin-top: 30px;
     
 }
-
+.contactcontent{
+    font-size: 3rem;
+}
 
 .address { 
     display: flex;
-    align-items: center;
-       
-    
+    align-items: center; 
 }
 
 .email { 
@@ -195,12 +203,12 @@ nav ul li a {
       
 }
 .add-content{
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-left: 20px ;
     
 }
 .email-content{
-    font-size: 20px;
+    font-size: 1.2rem;
     margin-left: 20px ;
     
 }
@@ -212,13 +220,9 @@ nav ul li a {
     border-radius: 40px;
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.4);
     color: white;
-
-    
-    
-   
 }
 .contact-form h2 {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
 }
 .contact-form input ,textarea { 
@@ -275,22 +279,19 @@ nav ul li a {
 /* ---------------------------------------------------------------- */
 #blogs{
     text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
     
-    padding:40px;
-    margin-left: 150px;
-    margin-right: 200px;
-    margin-top: 250px;
     
 }
 .blogcontent{
     display: flex;
     justify-content: space-around;
-    height:450px;
+    height:30rem;
 }
 .blog1{
     border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 40px;
+    width: 25rem;
     border: 2px solid white;
     box-shadow: 4px 8px 12px wheat;
 }
@@ -300,8 +301,8 @@ nav ul li a {
 }
 .blog2{
     border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 30px;
+
+    width: 25rem;
     margin-left: 25px;
     margin-right: 25px;
     border: 2px solid white;
@@ -309,8 +310,7 @@ nav ul li a {
 }
 .blog3{
     border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 40px;
+    width: 25rem;
     border: 2px solid white;
     box-shadow: 4px 8px 12px wheat;
 }
@@ -369,29 +369,22 @@ nav ul li a {
     height: 132px;
 }
 .project1{
+    width: 25rem;
     border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 26px;
-    margin-left: 25px;
-    margin-right: 25px;
     border: 2px solid white;
     box-shadow: 4px 8px 12px wheat;
 }
 .project2{
-    border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 26px;
     margin-left: 25px;
     margin-right: 25px;
+    width: 25rem;
+    border-radius: 30px;
     border: 2px solid white;
     box-shadow: 4px 8px 12px wheat;
 }
 .project3{
+    width: 25rem;
     border-radius: 30px;
-    padding-left: 26px;
-    padding-right: 26px;
-    margin-left: 25px;
-    margin-right: 25px;
     border: 2px solid white;
     box-shadow: 4px 8px 12px wheat;
 }
@@ -438,6 +431,7 @@ footer {
     
     display: flex;
     justify-content: space-around;
+    bottom: 0;
     
 }
 .footer-second li { 
@@ -447,6 +441,10 @@ footer {
 .footer-third li{
     margin-bottom: 10px;
     font-size: 20px;
+}
+.footer-second li a { 
+    text-decoration: none;
+    color: black;
 }
 .footer-third li a { 
     text-decoration: none;
@@ -471,8 +469,122 @@ footer {
     color:#282424;
     text-align: center;
 }
-#element{
-    font-weight: 800;
-    color:#0389ff; 
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .firstsection {
+        flex-direction: column;
+    }
+
+    .firstsection > div {
+        width: 80%;
+    }
+
+    .rightsection img {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .aboutme {
+        margin-left: 0;
+    }
+
+    .rightabout {
+        margin-top: 20px;
+    }
+
+    .projectcontent,
+    .blogcontent {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .blog1,
+    .blog2,
+    .blog3 {
+        margin-bottom: 20px;
+    }
+
+    .projectcontent img,
+    .blogcontent img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project4 button,
+    .blog4 button {
+        width: 100%;
+    }
+
+    .project4 button {
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-left,
+    .contact-form {
+        width: 90%;
+        margin-bottom: 20px;
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    .firstsection > div,
+    .rightsection img,
+    .aboutme,
+    .rightabout,
+    .contact-form {
+        width: 100%;
+    }
+
+    .firstsection {
+        margin: 20px;
+    }
+
+    .rightsection img {
+        height: auto;
+    }
+
+    .project1,
+    .project2,
+    .project3,
+    .blog1,
+    .blog2,
+    .blog3 {
+        margin: 20px;
+    }
+
+    .project4 button,
+    .blog4 button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer-second,
+    .footer-third {
+        margin-top: 20px;
+    }
+
+    .footer-second ul,
+    .footer-third ul {
+        padding: 0;
+    }
+
+    .footer-icons ul li a {
+        font-size: 1.2rem;
+    }
+
+    .footer p {
+        margin-top: 10px;
+    }
+}
+
 
